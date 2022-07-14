@@ -1,0 +1,115 @@
+.firstCol{
+    height: 955px;
+    max-width: 1305px;
+    background:url("/lohp_1302x955.png") ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.secondCol{
+    display: flex;
+    flex-basis: auto;
+    justify-content: center;
+    flex-direction: column;
+    flex-shrink: 0;
+    padding: 0;
+    height: max-content;
+    background: white;
+}
+
+.twitBird{
+    text-align: center;
+    width: 25vw;
+    min-width: 250px;
+    color: aliceblue;
+    fill: white;
+}
+
+/*  right Col     */
+.birdRow{
+    margin-top: 40%;
+    align-items: center;
+    justify-content: center;
+    display: block;
+}
+.tweetSmBird{
+    fill: cornflowerblue;
+    width: 75px;
+    align-items: center;
+}
+
+.strongLabelRow{
+    font-size: 40px;
+    margin-top: 1em;
+    display: block;
+}
+
+.formContainer{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+.loginInput{
+    width: 500px;
+    margin-top: 25px;
+}
+.buttonContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.button{
+    margin-top: 25px;
+    min-width: 200px;
+    padding: 10px 20px;
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px){
+    .birdRow{
+        margin:20px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        display: block;
+    }
+    .strongLabelRow{
+        font-size: 40px;
+        text-align: center;
+        align-items: center;
+        margin:auto;
+        margin-top: 1em;
+        display: block;
+    }
+    .formContainer{
+        display: block;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .loginInput{
+        font-size: 20px;
+        display: block;
+        text-align: center;
+        align-items: center;
+        margin:auto;
+        margin-top: 20px;
+        max-width: max-content;
+        min-width: 150px;
+    }
+    .buttonContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}

@@ -42,7 +42,8 @@
 
 .button:focus{
    opacity: 80%;
-   background: var(--c-slug);
+   color:var(--c-text-color) ;
+   background: white;
    box-shadow: none;
 }
 .active{

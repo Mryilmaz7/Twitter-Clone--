@@ -17,7 +17,7 @@
 }
 .Input{
     padding: 10px;
-    display: inline-block;
+    display: block;
     width: 90%;
     height: max-content;
     text-overflow: ellipsis;
@@ -26,7 +26,12 @@
     border-bottom: #6E767d 1px solid;
 }
 .Input:focus{
+    display: block;
     border:none;
     outline: none;
     border-bottom: #6E767d 1px solid;
+}
+.tweetButton{
+    display: flex;
+    justify-content: left;
 }

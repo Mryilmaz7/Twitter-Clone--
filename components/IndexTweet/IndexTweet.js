@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./IndexTweet.module.css";
-import {Form} from "react-bootstrap";
+import {Button,Form} from "react-bootstrap";
 import classNames from "classnames";
 
 const IndexTweet =()=>{
@@ -20,7 +20,11 @@ const IndexTweet =()=>{
             <Form.Group  className={classNames(classes.formDiv)}  controlId="formBasicEmail">
                     <img src="./favicon.ico" className={classes.img}/>
                     <textarea onKeyDown={auto} className={classes.Input} type="text" placeholder="Enter tweet" />
+
+
             </Form.Group>
+              <Form.Group> <Button >safsfa</Button></Form.Group>
+
             </div>
     )
 
