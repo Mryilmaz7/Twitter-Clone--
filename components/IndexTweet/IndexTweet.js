@@ -18,7 +18,6 @@ const IndexTweet =()=>{
             </p>
 
             <Form.Group  className={classNames(classes.formDiv)}  controlId="formBasicEmail">
-                    <img src="./favicon.ico" className={classes.img}/>
                     <textarea onKeyDown={auto} className={classes.Input} type="text" placeholder="Enter tweet" />
 
 

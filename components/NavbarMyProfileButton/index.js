@@ -8,7 +8,7 @@ const MyProfileButton =(props)=>{
     return(
         <Button className={classes.button}>
             <div className={classes.imgDiv}>
-                <img src="./favicon.ico" className={classes.img}/> {props.children}
+                {props.children}
             </div>
                 <div className={classes.labelDiv}>
                     <label className={classes.label}>
