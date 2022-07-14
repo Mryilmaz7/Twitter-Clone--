@@ -1,0 +1,16 @@
+.body{
+  background:var(--c-primary);
+}
+.columnTwo{
+  border: 1px solid #6E767d;
+  height: 1800px;
+  padding: 0;
+}
+
+
+
+@media screen and (max-width:1200px){
+  .discover{
+    display: none;
+  }
+}

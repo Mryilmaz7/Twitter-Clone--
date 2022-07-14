@@ -1,0 +1,47 @@
+.signUp{
+    width: 100%;
+    height: 100%;
+}
+.row{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    margin: auto;
+}
+.container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 50%;
+}
+.container2{
+    margin-top: 20%;
+}
+.input{
+    display: block;
+}
+.nextButtonDisable{
+    border-radius: 99px;
+    font-size: 1.5em;
+    margin-left: 50px;
+    padding: 10px 25px 10px 25px;
+    pointer-events: none;
+    opacity: 50%;
+}
+.nextButton{
+   border-radius: 99px;
+    font-size: 1.5em;
+    margin-left: 50px;
+    padding: 10px 25px 10px 25px;
+}
+
+.backButton{
+    border-radius: 99px;
+    font-size: 1.5em;
+    margin-right: 50px;
+    padding: 10px 25px 10px 25px;
+}
+
